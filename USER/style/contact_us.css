@@ -127,6 +127,9 @@ section #btn{
     color: pink;
 
 }
+#btn:active{
+    background-color: rgb(243, 4, 44);
+}
 footer{
     display: flex;
     align-items: center;
