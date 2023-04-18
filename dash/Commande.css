@@ -1,0 +1,30 @@
+ #co{
+    width: 10em;
+}
+.selec {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+#date{
+    width: fit-content;
+}
+#page{
+    padding: 20px;
+}
+#search_element{
+    display: flex;
+    justify-content: space-between;
+
+}
+.regroup{
+    display:flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,18 @@
+.right{
+   display: grid;
+   grid-row: 1fr;
+    row-gap: 20px;
+
+   width: fit-content;
+    
+
+}
+
+.Pbutton_client{
+    display: flex;
+    padding: 10px;
+}
+.button{
+    margin-left: 20px;
+    height: 30px;
+}

@@ -1,0 +1,202 @@
+ #partx{
+    background-image:URL("../img/first.jpeg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-left: -10px;
+    margin-top: -10%;
+    margin-right: -10px;
+ 
+    
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.theme{
+    position: fixed;
+    background: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-image:url('../img/pngwing.com.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+.theme:hover{
+    opacity:0.6;
+}
+form{
+    display: flex;
+}
+form input,.parts input{
+    border: lime  1px solid;
+    margin-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.search,.parts input{
+    cursor: pointer;
+    background-color: lime;
+    width: 100px;
+  
+    color: white;
+}
+.search:hover{
+    opacity:0.7;
+}
+
+a{
+    padding:10px;
+    color:black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight:bold;
+
+}
+a:hover{
+    color:rgb(199, 135, 18) !important;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav img{
+width: 45px;
+height: auto;
+
+}
+#part4{
+    margin-block: 50px;
+}
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+
+#pic1{
+    padding-inline: 10px;
+}
+#part4{
+    margin-top:10%;
+    margin-right:50%;
+ 
+  overflow: hidden;
+}
+#part4 p{
+    padding-inline: 130px;
+    color:lime;
+    position: sticky;
+}
+#part4 h1{
+    margin-top: 45%;
+    margin-left: 30px;
+    font-family: "copperplate",fantasy;
+    font-size: 50px;
+    
+}
+#part4 span{
+    color:rgb(15, 117, 15);
+}
+
+#part5{
+
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'copperplate', Arial, fantasy;   
+}
+#offering{
+padding-left: 40%;
+font-size: 50px;
+text-decoration: underline;
+}
+
+.parts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 30px;
+}
+.parts .titre,.parts input {
+    position: relative;
+    top: 40%;
+    left: 50px;
+    font-size: 50PX;
+    height: fit-content;
+    width: fit-content;
+}
+.part5{
+    background-image:url("../img/ip.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.part6{
+    background-image:url("../img/mac6.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.part7{
+    background-image:url("../img/ipad88.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.part8{
+    background-image:url("../img/MacMini.jpg");
+    
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.part9{
+    background-image:url("../img/rsz_1college_wb_desktop_collection_hero_93fb31c9-a491-4bfd-b4e3-1f021659bbb8_1.jpg");
+    
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.part9 input{
+    top: 65%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
+}
+footer ul{
+    font-size: 10px;
+    padding: 0;
+}
+.social-icons{
+    font-size: 20px;
+}

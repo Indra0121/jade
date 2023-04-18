@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.theme{
+    position: fixed;
+    background: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-image:url('../img/pngwing.com.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+
+}
+.theme:hover{
+    opacity:0.6;
+}
+form{
+    display: flex;
+}
+nav form input,.parts input{
+    border: lime  1px solid;
+    margin-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.search,.parts input{
+    cursor: pointer;
+    background-color: lime;
+    width: 100px;
+  
+    color: white;
+}
+.search:hover{
+    opacity:0.7;
+}
+nav input{
+    outline-style: none;
+}
+
+a{
+    padding:10px;
+    color:black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight:bold;
+
+}
+a:hover{
+    color:rgb(199, 135, 18) !important;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav img{
+    width: 45px;
+    height: auto;
+    
+    }
+#wlc{
+    background-image:url('https://imsmachinerydotcom.files.wordpress.com/2020/04/contact_us_banner_long2.jpg');
+    height: 25em;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    
+}
+section h1{
+    font-size: 30px;
+}
+section form{
+    display: grid;
+    
+}
+section form input{
+    text-align: center;
+    border-color:pink;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 25%;
+    border-radius: 20px;
+    height: 30px;
+    width: 50%;
+    font-size: 20px;
+
+}
+textarea{
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 25%;
+    border-radius: 20px;
+}
+section form input:focus,textarea:focus{
+    outline-color: rgb(241, 38, 72);
+}
+section #btn{
+    
+    
+    margin-left: 28%;
+    align-content: center;
+    cursor: pointer;
+    font-size: large;
+    color: rgb(236, 41, 74);
+    height: fit-content;
+}
+#btn:hover{
+    background-color: rgb(236, 41, 74);
+    color: pink;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
+}
+footer ul{
+    font-size: 10px;
+    padding: 0;
+}
+.social-icons{
+    font-size: 20px;
+}

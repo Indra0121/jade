@@ -1,0 +1,23 @@
+.Pbutton .regroup{
+    display: grid;
+    grid-row: 1fr;
+     row-gap: 20px;
+     justify-content: center;
+ padding: 20px;
+  margin-inline:50px;
+}
+.lineit{
+    margin-top: 50px;
+    display: flex;
+    height: 30px;
+}
+.regroup{
+    display:flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+}

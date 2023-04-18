@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Client</title>
+  <link rel="stylesheet" href="Commande.css">
+  <link rel="stylesheet" href="products.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="Client.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">
+          <img src="img/logo.png">
+          <span class="nav-item">Admin</span>
+        </a></li>
+        <li><a href="dashboard.html">
+          <i class="fas fa-menorah"></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+        <li><a href="products.html">
+         <span class="nav-item">Produits</span>
+        </a></li>
+        <li><a href="Commande.html">
+          <i class="fas fa-database"></i>
+          <span class="nav-item">Commandes</span>
+        </a></li>
+        <li><a href="Boite_reception.html">
+          
+          <span class="nav-item">Boite de reception</span>
+        </a></li>
+        <li><a href="Client.html">
+          <i class="fas fa-user-tie"></i>
+          <span class="nav-item">Clients</span>
+        </a></li>
+
+        <li><a href="#" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+      </ul>
+    </nav>
+
+
+    <section class="main">
+      <div class="main-top">
+        <h1>Client:</h1>
+     <a href="config.html"><i class="fas fa-user-cog"></i></a>
+      </div>
+      <div class=" Pbutton_client">
+        <div class="right">
+            <select>
+                <option>entrer num_client</option>
+   
+            </select>
+            <input type="text" placeholder="entrer nom client">
+            <input type="text" placeholder="entrer adresse client">
+            <input type ="submit" value="Search">
+            <div class="Pbutton" id="page">
+                <button><<</button>
+                <button><</button>
+                <button>1</button>
+                <p>of 55</p>
+                <button>></button>
+                <button>>></button>           
+              </div>
+        </div>       
+        <input class="button" type="submit" value="Filter">
+        
+    </div>
+    
+      <section class="core">
+        <div class="core-item">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>NUM-Client</th>
+                <th>Nom Client</th>
+                <th>email</th>
+                <th>Password</th>
+                <th>Telephone</th>
+                <th>Option</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+</body>
+</html>
