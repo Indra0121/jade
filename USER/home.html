@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet"thref="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -15,15 +17,15 @@
             <li><a href="single_page.html">Produit</a></li>
             <li><a href="about_us.html">A propos de nous</a></li>
             <li><a href="contact_us.html">Contactez nous</a></li>
-            <li><a href="#"><img src="img/ag.png" alt=""></a></li>
-            <li><a href="user.html"><img src="img/usericon.png" alt=""></a></li>
+            <li><a href="user.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
             
-
+            
         </ul>
         <form>
-         <input type="text" name="text1"  placeholder="search...">
-         <input type="submit" name="submit1" class="search"  value="search"/>
-      </form>
+            <input type="text" name="text1"  placeholder="search...">
+            <input type="submit" name="submit1" class="search"  value="search"/>
+        </form>
       <img src="https://cdn-icons-png.flaticon.com/512/3894/3894275.png" />
  
      </nav>
@@ -34,37 +36,87 @@
         <div id="part4">
             <h1>Welcome to <span>Jade</span> Shop</h1>
             <p>Best Apple product seller</p>
-           </div>
+        </div>
 </div>
-
-   
-<div class="parts part5"> 
-<h1 id="offering">WHAT WE OFFER</h1> 
-<h1 class="titre">Iphone</h1>
-<input type="submit" value="View latest">
+<h1 class="titled">OUR PICKS</h1>
+<div class="cat">
+  <div class="category-card">
+    <img src="img/desktopcat.jpg" alt="Category Image">
+    <h3 class="category-title">Nos element bureautique</h3>
+    <a href="#" class="see-more-button">See More</a>
+  </div>
+  <div class="category-card">
+    <img src="img/computer-hardware.jpg" alt="Category Image">
+    <h3 class="category-title">Nos Hardware</h3>
+    <a href="#" class="see-more-button">See More</a>
+  </div>
+  <div class="category-card">
+    <img src="img/phonecat.jpg" alt="Category Image">
+    <h3 class="category-title">Nos telephones</h3>
+    <a href="#" class="see-more-button">See More</a>
+  </div>
+  <div class="category-card">
+    <img src="img/consolecat.jpg" alt="Category Image">
+    <h3 class="category-title">Nos consoles</h3>
+    <a href="#" class="see-more-button">See More</a>
+  </div>
+  <div class="category-card">
+    <img src="img/pccat.jpg" alt="Category Image">
+    <h3 class="category-title">Nos ordinateurs portables</h3>
+    <a href="#" class="see-more-button">See More</a>
+  </div>
 </div>
-<div class="parts part6">
-
-<h1 class="titre">Macbook</h1>
-<input type="submit" value="View latest">
-</div>
-<div class="parts part7">
-<h1 class="titre">Ipad</h1>
-<input type="submit" value="View latest">
-
-</div>
-<div class="parts part8">
-<h1 class="titre">Mac mini</h1>
-<input type="submit" value="View latest">
-
-</div>
-<div class="parts part9">
-    <h1 class="titre"></h1>
-    <input type="submit" value="View latest">
-    
+ <h1 class="titled">AVALABLE ITEMS</h1>
+<div class="carousel">
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      <img src="https://images.unsplash.com/photo-1619597455322-4fbbd820250a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2t0b3AlMjBjb21wdXRlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="Image 1">
     </div>
+    <div class="carousel-slide">
+      <img src="produits/clavier1.jpg" alt="Image 2">
+    </div>
+    <div class="carousel-slide">
+      <img src="https://img.phonandroid.com/2018/01/nintendo-switch.jpg" alt="Image 3">
+    </div>
+  </div>
+  <button class="carousel-prev-btn">&#10094;</button>
+  <button class="carousel-next-btn">&#10095;</button>
+
+</div>
+<h1 class="titled">Our feedback</h1>
+<div class="blog-container">
+  <div class="blog-post">
+    <h2 class="blog-title">Jade: Unleashing the Power of Technology</h2>
+    <p class="blog-date"><span id='date-time'></span></p>
+    <div class="feedback">
+      <img src="https://i.pinimg.com/736x/28/9f/95/289f95c29b483e3e7584d897d05cd856.jpg" alt="User 1" class="user-icon">
+      <p class="feedback-content"><strong>Mia:</strong> I recently purchased a smartphone from Jade, and I am blown away by its performance! The camera quality is outstanding, capturing every detail with precision. The sleek design and smooth user interface make it a joy to use every day. Kudos to Jade for creating such an incredible device!</p>
+    </div>
+    <div class="feedback">
+      <img src="https://img.freepik.com/photos-premium/anime-kawaii-fille-generative-ai_259696-1900.jpg?w=2000" alt="User 2" class="user-icon">
+      <p class="feedback-content"><strong>Florentia:</strong> As a graphic designer, I rely heavily on powerful hardware for my work. Jade's PCs have been a game-changer for me. The processing speed and graphics capabilities have significantly improved my workflow, allowing me to complete projects faster and more efficiently. I couldn't be happier with my purchase!</p>
+    </div>
+    <div class="feedback">
+      <img src="https://i.pinimg.com/550x/1f/37/f7/1f37f799dd1e476b165ea64cc62ad5ca.jpg" alt="User 3" class="user-icon">
+      <p class="feedback-content"><strong>The Butterfly:</strong> I recently upgraded my gaming rig with Jade's high-performance hardware components, and the difference is mind-blowing. The smooth gameplay, enhanced visuals, and reduced load times have taken my gaming experience to a whole new level. Jade truly delivers exceptional quality and performance!</p>
+    </div>
+    <div class="feedback">
+      <img src="https://i.pinimg.com/736x/6a/ba/86/6aba860ad3a383b82acd2ce53ea2b889.jpg" alt="User 4" class="user-icon">
+      <p class="feedback-content"><strong>Perez:</strong> Jade has become my go-to store for all my technology needs. Their extensive selection, competitive prices, and top-notch customer service have made them stand out from the rest. I've recommended Jade to all my friends and family, and they've all had positive experiences. Keep up the great work!</p>
+    </div>
+    <div class="feedback">
+      <img src="https://thicc.mywaifulist.moe/waifus/42472/5e50d2b0b498f4b89f92bb2c260c0a9438c08f13707f9fff61c6c7a2c2018220_thumb.jpg" alt="User 5" class="user-icon">
+      <p class="feedback-content"><strong>Max:</strong> I'm amazed by the quality of Jade's products. I've purchased multiple items from them, including laptops, smartphones, and accessories, and every single one has exceeded my expectations. The durability and performance are unmatched. Jade has definitely earned my trust as a reliable technology provider.</p>
+    </div>
+    <div class="feedback">
+      <img src="https://static1.personality-database.com/profile_images/3acbf4fea3904a81b5c939845ac8ac2d.png" alt="User 6" class="user-icon">
+      <p class="feedback-content"><strong>Gallahan:</strong> The customer support at Jade is exceptional. Whenever I had any questions or issues with my purchases, their team was quick to respond and resolve them. They genuinely care about their customers' satisfaction. It's refreshing to see a company that puts such a strong emphasis on customer service.</p>
+    </div>
+  </div>
+</div>
+
     <hr>
-<footer>
+    <footer>
     <div>
         <h1>JADE Shop</h1>
        <ul class="Links">
@@ -82,7 +134,7 @@ Téléphone :<br><br> + 212 (0)5 22 94 29 25 / + 212 (0)5 22 25 97 59</p>
     <div class="col-md-4 col-sm-6 col-xs-12">
         <h1>our social media</h1>
         <ul class="social-icons">
-          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
           <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
           <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
           <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
@@ -90,7 +142,28 @@ Téléphone :<br><br> + 212 (0)5 22 94 29 25 / + 212 (0)5 22 25 97 59</p>
 
 </footer>
 <script src="https://kit.fontawesome.com/1fe577174e.js" crossorigin="anonymous"></script>
-
 <script src="theme.js"></script>
+<script>const carouselContainer = document.querySelector('.carousel-container');
+  const prevButton = document.querySelector('.carousel-prev-btn');
+  const nextButton = document.querySelector('.carousel-next-btn');
+  
+  let slideIndex = 0;
+  
+  prevButton.addEventListener('click', () => {
+    slideIndex = (slideIndex - 1 + carouselContainer.children.length) % carouselContainer.children.length;
+    updateSlidePosition();
+  });
+  
+  nextButton.addEventListener('click', () => {
+    slideIndex = (slideIndex + 1) % carouselContainer.children.length;
+    updateSlidePosition();
+  });
+  
+  function updateSlidePosition() {
+    carouselContainer.style.transform = `translateX(-${slideIndex * 100}%)`;
+  }
+  var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
+  </script>
 </body>
 </html>

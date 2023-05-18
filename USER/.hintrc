@@ -22,7 +22,8 @@
       {
         "ignore": [
           "width: fit-content",
-          "height: fit-content"
+          "height: fit-content",
+          "-webkit-text-size-adjust"
         ]
       }
     ],
@@ -31,6 +32,7 @@
       {
         "label": "off"
       }
-    ]
+    ],
+    "no-inline-styles": "off"
   }
 }
