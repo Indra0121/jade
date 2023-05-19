@@ -1,16 +1,18 @@
-import React from 'react';
+import React from 'react'
+import userimg from './../imgs/usericon.png'
+import cartimg from './../imgs/ag.png'
 
 function NAV() {
   return (
     <nav>
       <ul className="links">
         <li></li>
-        <li><a href="home.html">Acueill</a></li>
-        <li><a href="single_page.html">Produit</a></li>
-        <li><a href="about_us.html">A propos de nous</a></li>
-        <li><a href="contact_us.html">Contactez nous</a></li>
-        <li><a href="#"><img src="img/ag.png" alt="logo" /></a></li>
-        <li><a href="user.html"><img src="../../../img/usericon.png" alt="user icon" /></a></li>
+        <li><a href="http://127.0.0.1:5500/home.html">Acueill</a></li>
+        <li><a href="#">Produit</a></li>
+        <li><a href="http://127.0.0.1:5500/about_us.html">A propos de nous</a></li>
+        <li><a href="http://127.0.0.1:5500/contact_us.html">Contactez nous</a></li>
+        <li><a href="user.html"><img src={userimg} alt="user icon" /></a></li>
+        <li><a href="#"><img src={cartimg} alt="user icon" /></a></li>
       </ul>
       <form>
         <input type="text" name="text1" placeholder="search..." />

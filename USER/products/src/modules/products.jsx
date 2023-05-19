@@ -1,40 +1,46 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { Card, Container, Row, Col } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from 'react';
+import componentArray from './productlist';
+import './products.css';
+import SinglePage from './single_page';
 
 const PRODUCTS = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    // Fetch products from the fake API
-    axios.get('https://fakeapi.com/products')
-      .then(response => {
-        setProducts(response.data);
-      })
-      .catch(error => {
-        console.log(error);
-      });
-  }, []);
-
+  const [pp, setPp] = useState(null);
+  
+  const handleViewMore = (id) => {
+    console.log(`View More clicked for ${id}`);
+  };
+  
+  const func = (idx) => {
+    const parsedIndex = parseInt(idx, 10);
+    setPp(parsedIndex);
+    console.log(parsedIndex);
+  };
+  
   return (
-    <Container>
-      <Row>
-        {products.map(product => (
-          <Col key={product.id} md={4} sm={6}>
-            <Card>
-              <Card.Img variant="top" src={product.image} />
-              <Card.Body>
-                <Card.Title>{product.name}</Card.Title>
-                <Card.Text>{product.description}</Card.Text>
-                <Card.Text>Price: {product.price}</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+    
+    <main>
+    {pp !== null && (
+      <SinglePage 
+        title={componentArray[pp].title}
+        descp={componentArray[pp].descp}
+        img1={componentArray[pp].img1}
+        img2={componentArray[pp].img2}
+        img3={componentArray[pp].img3}
+        img4={componentArray[pp].img4}
+        img5={componentArray[pp].img5}
+      />
+    )}
+      <div className='cards'>
+        {componentArray.map((component, index) => (
+          <div key={index} className="card" id={`card-${index}`}>
+            <img className='rimg' src={component.img1} alt={component.title} />
+            <h3>{component.title}</h3>
+            <button id={`button-${index}`} onClick={() => func(index)}>View More</button>
+          </div>
         ))}
-      </Row>
-    </Container>
+      </div>
+    </main>
   );
-}
+};
 
 export default PRODUCTS;

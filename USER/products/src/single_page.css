@@ -2,7 +2,6 @@ main{
     height: 600px;
 }
 body{
-    padding: 0;
     margin: 0;
 }
 .container{
@@ -10,7 +9,11 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.photo{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 nav{
     display: flex;
     flex-direction: row-reverse;
@@ -55,11 +58,11 @@ form input,.parts input{
     opacity:0.7;
 }
 
-nav li a{
+a{
     padding:10px;
     color:black;
     text-decoration: none;
-    font-size: 15px;
+    font-size: larger;
     font-weight:bold;
 
 }
@@ -84,11 +87,10 @@ height: auto;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
     padding-right: 30px;
 }
 
-.box{
+.box img{
     height: 300px;
     
     width: 500px;
@@ -100,44 +102,24 @@ height: auto;
     column-gap: 30px;  
     row-gap: 30px;  
     margin-top: 10px;
-    
 
 }
-.mini{
+.mini img{
    
     height: 100px;
     width: 100px;
+    padding :0px;
 }
 .text{
     width: 200px;
 
 }
-.box1{
-    background-image:URL("https://www.patricknco.com/wp-content/uploads/charcoal-grey-suit2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .dashed {
 border:dashed 2px blue;
 }
 
-.box2{
-    background-image:URL("https://yfsmagazine.com/wp-content/uploads/2015/07/Best-Business-Suit-Colors-Guide-YFS-Magazine.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
-.box3{
-    background-image:URL("https://hips.hearstapps.com/digitalspyuk.cdnds.net/18/34/1534929472-eleventh-doctor.jpg?crop=0.668xw:1.00xh;0.0374xw,0&resize=480:*");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.box4{
-    background-image:URL("https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/05/david-tennant-doctor-who-sonic-screwdriver.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 .quantity {
     width: 40px;
     text-align: center;
@@ -182,29 +164,3 @@ footer ul{
     flex-wrap: wrap;
     align-items: center;
 }
-.container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .row{
-    display:grid;
-    row-gap:20px;
-    justify-content:center;
-    grid-template-columns:350px 350px 350px;
-    grid-template-rows: 360px 360px 360px;
-    justify-items:center;
-    
-  }
-  .cards{
- 
-    display: flex;
-    justify-content: center;
-  }
-  .card{
-    width: 300px;
-    border-radius: 0 0 0 25%;
-  }
-
- 
-
