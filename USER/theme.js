@@ -2,6 +2,7 @@ const body = document.querySelector('body')
 const text= document.querySelectorAll('h1,.links a, .text button,p,footer li a')
 const theme=document.querySelector('.theme');
 const footer =  document.querySelector('footer')
+
 var color;
 var darktheme =false;
 
@@ -18,8 +19,8 @@ theme.addEventListener('click',(e)=>{
         darktheme=true;
         
     } else {
-        theme.style.backgroundImage="url('img/pngwing.com.png')";
         body.style.background='';
+        theme.style.backgroundImage="url('img/pngwing.com.png')";
         for (let i = 0; i < text.length; i++) {
             text[i].style.color="";    
         }
