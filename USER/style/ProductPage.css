@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.theme{
+    position: fixed;
+    background: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-image:url('../img/pngwing.com.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+.theme:hover{
+    opacity:0.6;
+}
+form{
+    display: flex;
+}
+form input,.parts input{
+    border: lime  1px solid;
+    margin-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.search,.parts input{
+    cursor: pointer;
+    background-color: lime;
+    width: 100px;
+  
+    color: white;
+}
+.search:hover{
+    opacity:0.7;
+}
+
+a{
+    padding:10px;
+    color:black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight:bold;
+
+}
+a:hover{
+    color:rgb(199, 135, 18) ;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav img{
+width: 45px;
+height: auto;
+
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20%;
+}
+/* Banner */
+.banner{
+    height: 500px;
+    width: 100%;
+    background-image: url('../imgs/bannerProductP.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a{
+    color: black !important;
+}
+#listof {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 18rem;
+    margin: 10px;
+}
+nav ul button {
+    background-color: pink;
+}
+.btn-primary {
+   color: purple;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+  }
+  
+  th, td {
+    border: 1px solid;
+    width: 25%; 
+    box-sizing: border-box; 
+    text-align: left; 
+    padding: 8px; 
+  }
+  .card,.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card button,.tabled button{
+    border: none;
+    background-color: lime;
+   height: 50px;
+   width: 100px;
+    color: white;
+    border-radius: 30px;
+  }
+  .tabled button:active{
+    background-color: red;
+  }
+  .card button:hover{
+    background-color: rgba(0, 255, 0, 0.753);
+  }
+  .card button:active{
+    background-color: green;
+  }
